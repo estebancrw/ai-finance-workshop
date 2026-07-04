@@ -3,6 +3,9 @@
 Fill by typing — estimates are fine, honesty beats precision. Round or
 abstract anything you don't want visible; the pattern works the same.
 
+**Privacy rule:** never write account numbers, CLABEs, or card numbers here
+— balances, rates, and dates only.
+
 ```
 as_of: TODAY'S DATE
 currency: ____

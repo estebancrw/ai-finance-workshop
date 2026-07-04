@@ -52,18 +52,22 @@ Cartridge = two files: `snapshot.md` (your numbers, changes monthly) +
 (`levels.md`) for 2 minutes: "you're at 0, you leave at 1, the ritual takes
 you to 2, I live around 3 — I'll show you at the end."
 
-## 12:25–12:35 — Fill the worksheets
+## 12:25–12:35 — Build their cartridge (AI-guided interview)
 
-Hand out `worksheets/snapshot-worksheet.md` + `rules-worksheet.md`. Say
-explicitly:
+Primary path: everyone pastes `onboarding/level-1-build.md` into a fresh
+chat — the AI interviews them one question at a time and emits their two
+cartridge files. (Fallback if someone's tool misbehaves: the manual
+worksheets in `worksheets/`.) Say explicitly:
 
 > "Estimates are fine — this is a snapshot, not bookkeeping. And round or
 > abstract any number you don't want to share out loud; the pattern works
 > identically. Nobody has to show anyone their sheet."
 
-Walk the Alex example first so they calibrate. While they fill, circulate:
-the most common failure is empty `rules` — prompt them: "what money rule do
-you already enforce on yourself that no app knows about?"
+Walk the Alex example first so they calibrate. While they answer the
+interview, circulate: the most common failure is thin `rules` — prompt
+them: "what money rule do you already enforce on yourself that no app
+knows about?" Note the interview may run past 12:35 into the build block
+— fine, it produces the files they need for step 3 anyway.
 
 ## 12:35–13:05 — Build (the core block)
 

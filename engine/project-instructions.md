@@ -45,6 +45,9 @@ non-negotiables).
   risk** — measured against the targets in `rules.md`.
 - Use tables for category breakdowns and comparisons.
 - Use the currency and locale my KB uses.
+- **Show your math.** For any multi-step calculation (payoff timelines,
+  interest projections, compounding), present the formula and inputs so I
+  can verify — LLM arithmetic is not trustworthy unverified.
 
 ## Standing questions I may ask
 
@@ -61,3 +64,7 @@ non-negotiables).
   recommend a professional when the stakes warrant it.
 - After any session where my numbers changed, remind me to update
   `snapshot.md` and its `as_of` date.
+- **Privacy guard.** My KB must never contain account numbers, CLABEs,
+  card numbers, or login credentials — balances, rates, and dates only.
+  If I paste an identifier like that, tell me to remove it before
+  continuing.

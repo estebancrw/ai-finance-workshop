@@ -31,8 +31,10 @@ answers to the same question** — that's the point.
 
 ## Quickstart (30 minutes, no workshop needed)
 
-1. Copy [`cartridges/_template/`](cartridges/_template/) and fill in
-   `snapshot.md` (estimates are fine) and `rules.md` (3–5 non-negotiables).
+1. **Easiest:** paste [`onboarding/level-1-build.md`](onboarding/level-1-build.md)
+   into a fresh chat — the AI interviews you and writes your cartridge for
+   you. (Manual alternative: copy
+   [`cartridges/_template/`](cartridges/_template/) and fill it yourself.)
 2. Follow the setup guide for your tool:
    [ChatGPT](adapters/chatgpt-project.md) ·
    [Claude](adapters/claude-project.md)
@@ -50,6 +52,7 @@ never committed. The repo stays generic; your data stays yours.
 | [`engine/`](engine/) | The tool-agnostic instructions (no personal data) |
 | [`cartridges/`](cartridges/) | Spec, blank template, two mocked demo personas, gitignored `private/` |
 | [`adapters/`](adapters/) | Per-tool setup guides |
+| [`onboarding/`](onboarding/) | AI-guided interviews that build your cartridge for you |
 | [`levels.md`](levels.md) | The 5 levels of personal AI (0 stateless → 4 agentic) |
 | [`workshop/`](workshop/) | Run this as a workshop: facilitator script, demo runbook, worksheets, handout |
 
@@ -62,6 +65,13 @@ never committed. The repo stays generic; your data stays yours.
 4. **Agentic** — AI that acts, inside human approval gates
 
 Full ladder with upgrade triggers and the guardrail story: [`levels.md`](levels.md).
+
+## Using a coding agent?
+
+Clone the repo, open Claude Code / Codex / any CLI agent in the root, and
+say **"onboard me."** `AGENTS.md` instructs the agent to interview you,
+write your real cartridge into the gitignored `cartridges/private/`, and
+then act as your finance copilot on demand — the repo installs itself.
 
 ## Disclaimer
 
