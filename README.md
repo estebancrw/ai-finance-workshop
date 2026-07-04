@@ -38,7 +38,9 @@ answers to the same question** — that's the point.
    [`cartridges/_template/`](cartridges/_template/) and fill it yourself.)
 2. Follow the setup guide for your tool:
    [ChatGPT](adapters/chatgpt-project.md) ·
-   [Claude](adapters/claude-project.md)
+   [Claude](adapters/claude-project.md) ·
+   power tier: [Claude Code](adapters/claude-code.md) ·
+   [Codex CLI](adapters/codex.md)
 3. Ask it a real money question you're facing this week.
 4. Put a monthly 15-minute "refresh" event in your calendar. That habit is
    the actual system — see [`levels.md`](levels.md).
@@ -52,7 +54,7 @@ never committed. The repo stays generic; your data stays yours.
 |---|---|
 | [`engine/`](engine/) | The tool-agnostic instructions (no personal data) |
 | [`cartridges/`](cartridges/) | Spec, blank template, and your gitignored `private/` cartridge + statements |
-| [`skills/`](skills/) | Agent procedures: statement ingestion (incl. password-protected PDFs), more to come |
+| [`skills/`](skills/) | Agent procedures: statement-ingest (incl. password-protected PDFs), snapshot-refresh (weekly close), debt-plan, protection-check |
 | [`adapters/`](adapters/) | Per-tool setup guides |
 | [`onboarding/`](onboarding/) | AI-guided interviews that build your cartridge for you |
 | [`levels.md`](levels.md) | The 5 levels of personal AI (0 stateless → 4 agentic) |

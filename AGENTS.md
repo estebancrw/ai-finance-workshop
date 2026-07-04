@@ -31,8 +31,16 @@ onboarding prompts (`onboarding/`).
 ## Skills
 
 Reusable procedures live in `skills/` (one directory per skill, a
-`SKILL.md` inside). When the user asks for something a skill covers —
-e.g., ingesting account statements — read and follow that skill file.
+`SKILL.md` inside; `.claude/skills/` symlinks them for Claude Code's
+native discovery). When the user asks for something a skill covers, read
+and follow that skill file:
+
+| Trigger | Skill |
+|---|---|
+| "refresh", "weekly close", stale snapshot | `skills/snapshot-refresh/` |
+| statements provided, "ingest", full refresh | `skills/statement-ingest/` |
+| debt payoff, loan priority, "what if I pay more" | `skills/debt-plan/` |
+| "am I protected", emergency fund, insurance | `skills/protection-check/` |
 
 ## Agent tasks this repo supports
 
