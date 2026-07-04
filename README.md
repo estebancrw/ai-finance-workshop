@@ -26,7 +26,8 @@ Born as a hands-on workshop for friends; usable by anyone, self-serve, in
 ```
 
 Same engine, different cartridge, different (correct) advice. See it work:
-the two demo personas in [`cartridges/`](cartridges/) give **opposite
+the two demo personas in
+[`workshop/demo-cartridges/`](workshop/demo-cartridges/) give **opposite
 answers to the same question** — that's the point.
 
 ## Quickstart (30 minutes, no workshop needed)
@@ -50,7 +51,8 @@ never committed. The repo stays generic; your data stays yours.
 | Path | What it is |
 |---|---|
 | [`engine/`](engine/) | The tool-agnostic instructions (no personal data) |
-| [`cartridges/`](cartridges/) | Spec, blank template, two mocked demo personas, gitignored `private/` |
+| [`cartridges/`](cartridges/) | Spec, blank template, and your gitignored `private/` cartridge + statements |
+| [`skills/`](skills/) | Agent procedures: statement ingestion (incl. password-protected PDFs), more to come |
 | [`adapters/`](adapters/) | Per-tool setup guides |
 | [`onboarding/`](onboarding/) | AI-guided interviews that build your cartridge for you |
 | [`levels.md`](levels.md) | The 5 levels of personal AI (0 stateless → 4 agentic) |

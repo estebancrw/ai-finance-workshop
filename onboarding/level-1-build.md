@@ -34,7 +34,9 @@ exactly:
     local files), offer to fetch them yourself, confirming each figure
     with me.
   Only if I have no statements available, fall back to **estimate mode**:
-  interview only.
+  interview only. If you are an agent working inside this repo, follow
+  `skills/statement-ingest/SKILL.md` for acquisition, password-protected
+  PDFs, storage location, and extraction.
 - **Freshness window:** use the running month or the month before —
   that's the ideal. Hard cap: nothing older than 3 months; refuse older
   documents. If the freshest statement is 2–3 months old, use it but say

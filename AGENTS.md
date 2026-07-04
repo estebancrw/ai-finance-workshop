@@ -18,11 +18,21 @@ onboarding prompts (`onboarding/`).
    README. It is gitignored; it holds the user's real financial data.
    Never weaken the `.gitignore`, never `git add -f` files from there,
    never paste its contents into commits, issues, or PRs.
-2. **Public cartridges contain mocked data only.** `alex/` and `sam/` are
-   fictional personas. Any new committed cartridge must be fictional and
-   labeled as such.
-3. The engine must stay **generic** — no personal data, no
+2. **Committed cartridges contain mocked data only.** The demo personas
+   in `workshop/demo-cartridges/` (alex, sam) are fictional. Any new
+   committed cartridge must be fictional and labeled as such.
+3. **Statement files live only in `cartridges/private/statements/`** —
+   gitignored. Never store, copy, or decrypt statements anywhere else in
+   the repo. Structure: `statements/YYYY-MM/<institution>.pdf`;
+   decrypted copies keep the name with a `-decrypted` suffix.
+4. The engine must stay **generic** — no personal data, no
    currency/locale assumptions beyond what a cartridge provides.
+
+## Skills
+
+Reusable procedures live in `skills/` (one directory per skill, a
+`SKILL.md` inside). When the user asks for something a skill covers —
+e.g., ingesting account statements — read and follow that skill file.
 
 ## Agent tasks this repo supports
 

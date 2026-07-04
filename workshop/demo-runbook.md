@@ -5,8 +5,10 @@ lines below recover every known failure mode.
 
 ## Prep
 
-- Project 1: `Alex — Money KB` → engine instructions + `cartridges/alex/`
-- Project 2: `Sam — Money KB` → engine instructions + `cartridges/sam/`
+- Project 1: `Alex — Money KB` → engine instructions +
+  `workshop/demo-cartridges/alex/`
+- Project 2: `Sam — Money KB` → engine instructions +
+  `workshop/demo-cartridges/sam/`
 - Plain chat (no project) open in a separate tab for Demo A
 
 ## Demo A — the misc reveal (plain chat, ~3 min)

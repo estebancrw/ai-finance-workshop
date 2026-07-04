@@ -51,13 +51,16 @@ Optional (include when they apply — they change the answers):
 
 ## Included cartridges
 
-- `alex/` — demo persona: debt-heavy, thin savings. **Mocked data.**
-- `sam/` — demo persona: debt-free, over-parked in cash. **Mocked data.**
 - `_template/` — blank cartridge. Copy it, fill it, plug it in.
 - `private/` — **gitignored.** Put your real cartridge here; it never gets
-  committed or published. This is where "pluggable" becomes real: the public
-  repo carries the engine and mock cartridges, your machine carries your
-  data.
+  committed or published. This is where "pluggable" becomes real: the
+  public repo carries the engine and mocked demo data, your machine
+  carries your data. Statement files (PDFs/CSVs) go in
+  `private/statements/YYYY-MM/` — same protection.
+
+Demo personas (Alex: debt-heavy; Sam: debt-free, cash over-parked — both
+fully mocked) live in `../workshop/demo-cartridges/`; they exist for the
+workshop demos, not as part of anyone's setup.
 
 ## Precision note
 
