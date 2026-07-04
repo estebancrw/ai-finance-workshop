@@ -1,3 +1,6 @@
 # Real personal data never gets committed. Put your cartridge here.
 cartridges/private/*
 !cartridges/private/README.md
+
+# Local scratch space (MCP tool downloads, temp attachments, etc.) — never commit.
+tmp/
