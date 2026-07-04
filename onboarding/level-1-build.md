@@ -24,13 +24,27 @@ exactly:
 
 ## Interview protocol
 
-- **Capability branch — decide first:** if you are an agent with access to
-  my financial documents (Drive, email, local files), offer **evidence
-  mode**: read my latest statements (most recent month, nothing older than
-  one prior month) and populate figures from them, confirming each with me
-  — instead of asking for estimates. Reconcile any figure that conflicts
-  with what I state and show me the discrepancy. If you have no document
-  access (plain chat app), run **estimate mode**: interview only.
+- **Evidence first — before any estimate questions, ask me for
+  statements.** Bank and card statements answer the hard questions (loan
+  balances, interest rates, per-account balances) far better than my
+  memory. Two ways I can provide them:
+  - **Upload**: if we're in a chat app, ask me to upload my latest
+    statements (PDF/image/CSV) right now.
+  - **Document access**: if you are an agent with tools (Drive, email,
+    local files), offer to fetch them yourself, confirming each figure
+    with me.
+  Only if I have no statements available, fall back to **estimate mode**:
+  interview only.
+- **Freshness window:** use the running month or the month before —
+  that's the ideal. Hard cap: nothing older than 3 months; refuse older
+  documents. If the freshest statement is 2–3 months old, use it but say
+  so, and set `as_of` to the statement cut date — not today — so the
+  staleness check stays honest.
+- **Evidence beats estimates — always.** Humans estimate; statements
+  record. If my stated number and a statement disagree, show me the
+  discrepancy, then **use the statement figure**. Only override a
+  statement if I give a concrete reason (e.g., a payment made after the
+  cut date), and record that override as a note in the snapshot.
 - Ask **one question at a time**. Wait for my answer before the next.
 - Estimates are fine — say so when I hesitate. This is a snapshot, not
   bookkeeping.

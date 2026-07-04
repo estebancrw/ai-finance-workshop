@@ -29,10 +29,14 @@ onboarding prompts (`onboarding/`).
 ### "Onboard me" — build the user's cartridge
 
 Run the interview in `onboarding/level-1-build.md` (one question at a
-time). **Capability branch:** if you have document access (Drive, email,
-files), offer evidence mode — populate figures from the latest statements
-(≤1 month old), confirming each with the user — otherwise interview for
-estimates. Write results to `cartridges/private/snapshot.md` and
+time). **Evidence first:** before estimate questions, ask the user to
+provide statements (upload, or fetch via your tools if you have
+document access). Freshness: running month or one before ideally; 3-month
+hard cap; if evidence is 2–3 months old, set `as_of` to the statement cut
+date. **Statements override user estimates** — on conflict, show the
+discrepancy and use the statement figure unless the user gives a concrete
+reason (recorded as a note). Fall back to estimates only when no
+documents exist. Write results to `cartridges/private/snapshot.md` and
 `cartridges/private/rules.md`. Verify with `git check-ignore
 cartridges/private/snapshot.md` before finishing.
 

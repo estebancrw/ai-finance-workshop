@@ -3,6 +3,10 @@
 Fill by typing — estimates are fine, honesty beats precision. Round or
 abstract anything you don't want visible; the pattern works the same.
 
+**Better than memory:** if you have last month's bank/card statement
+handy, take the numbers from there — estimates for balances, rates, and
+loans are usually further off than people think.
+
 **Privacy rule:** never write account numbers, CLABEs, or card numbers here
 — balances, rates, and dates only.
 
