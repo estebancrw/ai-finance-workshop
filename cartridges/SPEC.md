@@ -11,7 +11,7 @@ A cartridge is a directory with exactly two files:
 
 | File | What it holds | How often it changes |
 |---|---|---|
-| `snapshot.md` | Your **state**: income, spending, savings, debts, investments, insurance — with an `as_of` date | Often (weekly/monthly refresh) |
+| `snapshot.md` | Your **state**: income, spending, savings, debts, investments, insurance — with an `as_of` date | Monthly by default (engine flags it stale past 1 month); tighter cadence is your choice |
 | `rules.md` | Your **knowledge**: targets, priorities, non-negotiables | Rarely (when you learn something about yourself) |
 
 Why two files, not one: your balances change every month; your principles
@@ -30,6 +30,14 @@ and your rules accumulate slowly and deliberately.
 - Active debts: name / balance / interest rate / minimum payment
 - Investments: type / rough value (or "none")
 - Insurance: what you have, what you don't
+
+Optional (include when they apply — they change the answers):
+
+- **Non-cash benefits**: employer-paid insurance, meal/grocery vouchers —
+  they change your protection level and your effective spend
+- **Equity-building payments**: mortgage / pre-construction installments —
+  payments that build an asset; list separately from consumer debt and
+  from consumption
 
 ### rules.md
 

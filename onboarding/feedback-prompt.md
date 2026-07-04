@@ -23,6 +23,7 @@ structure:
 # Onboarding Retro — YYYY-MM-DD
 
 agent/tool: <which agent and model ran this>
+mode: <estimate | evidence — did you interview only, or read documents?>
 duration: <approx minutes, number of questions asked>
 
 ## What worked

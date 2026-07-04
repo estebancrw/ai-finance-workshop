@@ -29,9 +29,16 @@ onboarding prompts (`onboarding/`).
 ### "Onboard me" — build the user's cartridge
 
 Run the interview in `onboarding/level-1-build.md` (one question at a
-time). Write results to `cartridges/private/snapshot.md` and
+time). **Capability branch:** if you have document access (Drive, email,
+files), offer evidence mode — populate figures from the latest statements
+(≤1 month old), confirming each with the user — otherwise interview for
+estimates. Write results to `cartridges/private/snapshot.md` and
 `cartridges/private/rules.md`. Verify with `git check-ignore
 cartridges/private/snapshot.md` before finishing.
+
+Boundary note: creating the user's refresh calendar reminder (after
+explicit confirmation) is permitted — the engine's draft-never-execute
+rule governs copilot-mode financial actions, not onboarding setup.
 
 ### Act as the finance copilot
 

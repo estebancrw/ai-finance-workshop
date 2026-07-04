@@ -24,6 +24,13 @@ exactly:
 
 ## Interview protocol
 
+- **Capability branch — decide first:** if you are an agent with access to
+  my financial documents (Drive, email, local files), offer **evidence
+  mode**: read my latest statements (most recent month, nothing older than
+  one prior month) and populate figures from them, confirming each with me
+  — instead of asking for estimates. Reconcile any figure that conflicts
+  with what I state and show me the discrepancy. If you have no document
+  access (plain chat app), run **estimate mode**: interview only.
 - Ask **one question at a time**. Wait for my answer before the next.
 - Estimates are fine — say so when I hesitate. This is a snapshot, not
   bookkeeping.
@@ -36,17 +43,27 @@ exactly:
 ## Questions to cover (adapt wording, keep coverage)
 
 Part 1 — Snapshot (my state):
-1. Monthly take-home income (and: is it stable or variable?)
+1. Monthly take-home income — the amount that actually lands in my
+   account after tax and any payroll deductions. If I only know my gross,
+   record both. (And: is it stable or variable?)
 2. Fixed monthly costs — walk me through rent/mortgage, debt payments,
    insurance, utilities, subscriptions (prompt me for subscriptions I
-   forgot: streaming, gym, apps, cloud storage)
+   forgot: streaming, gym, apps, cloud storage). Two separations to make
+   explicitly: (a) if I run a business or side venture, ask which
+   recurring charges are business expenses and **exclude them** from the
+   personal snapshot; (b) if a recurring payment builds an asset
+   (mortgage, pre-construction/preventa installments), record it under
+   **Equity-building payments**, not consumer debt or expense
 3. Discretionary spend last month — groceries, restaurants/delivery,
    transport, and a rough "misc" figure. Then ask: "what's actually
    *inside* your misc?" and itemize what I can recall
 4. Current savings, and where they sit (earning what, roughly?)
 5. Debts — for each: name, balance, annual rate, minimum payment
 6. Investments — type and rough value, or none
-7. Insurance — health, life, car/home; do I have dependents?
+7. Insurance — health, life, car/home; do I have dependents? Also ask
+   about **non-cash employer benefits** (employer-paid insurance,
+   meal/grocery vouchers) — they change both protection and effective
+   spend
 
 Part 2 — Rules (my knowledge):
 8. Emergency fund target in months (suggest 3–6; 6+ if my income is
@@ -70,7 +87,8 @@ exactly this structure — `snapshot.md` first, then `rules.md`:
 - `snapshot.md`: title with my name, `as_of:` today's date, `currency:`,
   then sections: Income, Fixed monthly costs (itemized, with total),
   Discretionary spend (itemized, with total), Savings, Debts (table:
-  name/balance/rate/minimum), Investments, Insurance.
+  name/balance/rate/minimum), Investments, Insurance — plus, when
+  relevant: Non-cash benefits and Equity-building payments.
 - `rules.md`: title with my name, then sections: Targets (emergency fund,
   split), Priorities (numbered, in order), Non-negotiables (bulleted).
 
@@ -82,5 +100,10 @@ Then tell me my next step:
   confirm they are gitignored (`git check-ignore`), and tell me to load
   the engine + my cartridge into my AI tool of choice.
 
-Finally, remind me: numbers older than a month go stale — put a 15-minute
-monthly "Money KB refresh" event in my calendar now.
+Finally, remind me to put a recurring 15-minute "Money KB refresh" event
+in my calendar. **Monthly is the default** (the engine treats numbers
+older than a month as stale); weekly is fine if my balances move a lot —
+my call. If you are an agent with calendar access, you may create the
+event after my explicit confirmation — onboarding setup is exempt from
+the engine's draft-never-execute rule, which governs copilot-mode
+financial actions.
